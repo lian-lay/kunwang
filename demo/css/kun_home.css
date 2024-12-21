@@ -1,0 +1,195 @@
+.kun_home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 500px;
+    background-color: #959595;
+    display: flex;
+    flex-direction: column;
+}
+.top > .nav{
+    display: flex;
+    width: 1500px;
+    height: 500px;
+    background-color: #ff0000;
+    margin: 0 auto;
+    background: url(../img/ji_nav.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top > .nav > .nav_top{
+    margin: 0  auto;
+    display: flex;
+    width: 500px;
+    height: 40px;
+}
+.top > .nav > .nav_top > .nav_box{
+    display: flex;
+    width: 100px;
+    height: 40px;
+}
+.top > .nav > .nav_top > .nav_box > a{
+    margin: auto auto;
+    color: white;
+}
+.banner{
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.banner > .new_song{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.banner > .new_song > h2, p{
+    margin: auto auto;
+}
+.banner > .new_song > .line{
+    margin: 10px auto;
+    height: 1px;
+    width: 80px;
+    border: 1px solid black;
+}
+.banner > .new_song > .alone_box{
+    overflow: hidden;
+    display: flex;
+}
+.banner > .new_song > .alone_box >.song_box{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+    height: 380px;
+    /* 多余部分隐藏 */
+}
+.banner > .new_song > .alone_box > .song_box > .song_god{
+    margin: 0 10px;
+    display: flex;
+    box-shadow: 5px 10px 5px #ccc;
+    flex-wrap: wrap;
+    width: 280px;
+    height: 370px;
+}
+.banner > .new_song >.alone_box > .song_box > .song_god > img{
+    width: 280px;
+    height: 280px;
+}
+.banner > .new_song > .alone_box >.song_box > .song_god > .wrod{
+    margin: 0 10px;
+}
+.banner > .new_song > .alone_box >.song_box > .song_god > .wrod >span{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.banner > .new_song > .alone_box >.song_box > .song_god > .wrod > p{
+    color: #acaaab;
+    font-size: 13px;
+}
+.banner > .new_song > .alone_box >.song_box > .song_god > .song_bnt{
+    margin: 10px 15px;
+    width: 110px;
+    height: 35px;
+    background-color: #31c27c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.banner > .new_song >.alone_box > .song_box > .song_god > .song_bnt > img{
+    margin: -2px  5px;
+}
+.banner > .new_song > .produce{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+}
+.banner > .new_song > .produce > .left{
+    width: 600px;
+    height: 1000px;
+}
+.banner > .new_song > .produce > .left > img{
+    width: 600px;
+    height: 1000px;
+}
+.banner > .new_song > .produce > .right{
+    width: 900px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner > .new_song > .produce > .right > .big{
+    width: 900px;
+    height: 350px;
+}
+.banner > .new_song > .produce > .right > .small{
+    width: 450px;
+    height: 325px;
+}
+.foot{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background: black;
+}
+.foot > .lost_box{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+}
+.foot > .lost_box > img{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+.foot > .lost_box > .bottom >span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 70px;
+    cursor: pointer;
+}
+.foot > .lost_box > p{
+    color: #bbbbbb;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.banner > .new_song > .bnt_right{
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 45%;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    opacity: 0.1;
+    transition: all 0.3s linear;
+}
+.banner > .new_song > .bnt_right:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.banner > .new_song > .bnt_left:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.banner > .new_song > .bnt_left{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    opacity: 0.1;
+    transition: all 0.3s linear;
+}
